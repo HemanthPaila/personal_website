@@ -406,6 +406,11 @@ svg
     height: 90%;
     border: 2px solid #dddddd;
 }
+.certi-img-cntr1:hover,.certi-img-cntr2:hover,.certi-img-cntr3:hover,
+.certi-img-cntr4:hover,.certi-img-cntr5:hover,.certi-img-cntr6:hover
+{
+    background-size: 400px;
+}
 .projects-section1
 {
     margin: 0 auto;
