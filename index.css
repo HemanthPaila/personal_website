@@ -521,7 +521,7 @@ a
     margin:20px auto;
     width: 980px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -529,9 +529,12 @@ a
 {
     border: 2px solid #dddddd;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    width: 400px;
+    height: auto;
 }
 .arti-name-cntr
 {
@@ -542,6 +545,17 @@ a
     font-style: normal;
     font-weight: bold;
     color: #3c3c3c;
+}
+.arti-desc-cntr
+{
+    text-align: justify;
+    padding: 20px;
+}
+.arti-card a img
+{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
 }
 .pro-cards-cntr
 {
