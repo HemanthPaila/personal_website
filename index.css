@@ -179,7 +179,7 @@ svg
     height: auto;
     margin: 10px auto;
     display: flex;
-    gap: 10px;
+    gap: 35px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -196,7 +196,7 @@ svg
     /* flex-grow: 1; */
     /* flex-basis: 300px; */
 }
-.edu-card1
+.certi-card1
 {
     min-width: 300px;
     max-width: 390px;
@@ -208,7 +208,7 @@ svg
     background-repeat: no-repeat;
     background-size: contain;
 }
-.education-section1
+.certi-cards-cntr1
 {
      padding: 5px;
     /* border: 2px solid black; */
@@ -216,7 +216,7 @@ svg
     height: auto;
     margin: 10px auto;
     display: flex;
-    gap: 10px;
+    gap: 35px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -310,7 +310,7 @@ svg
     border-radius: 10px;
     /* flex-grow: 1; */
 }
-.certificates-section
+.certi-cards-cntr
 {
     /* border: 2px solid black; */
     width:90%;
@@ -319,15 +319,87 @@ svg
     display: flex;
     align-items: flex-start;
     align-content: flex-start;
-    gap: 50px;
+    gap: 35px;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
-.certificate-item
+.certi-card
 {
-    width: 421px;
-    height: 421px;
+    width: 350px;
+    height: 350px;
     border: 2px solid #dddddd;
     border-radius: 10px;
+}
+.certi-name-cntr
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #3c3c3c;
+}
+.certi-img-cntr1
+{
+    background-image: url(images/1651393838980_page-0001.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 90%;
+}
+.certi-img-cntr2
+{
+    background-image: url(images/1679422713116_page-0001.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 90%;
+}
+.certi-img-cntr3
+{
+    background-image: url(images/1673512588581_page-0001.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 90%;
+}
+.certi-img-cntr4
+{
+    background-image: url(images/1679408038881_page-0001.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 90%;
+}
+.certi-img-cntr5
+{
+    background-image: url(images/1635178954681_page-0001.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 90%;
+}
+.certi-img-cntr6
+{
+    background-image: url(images/aws.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 90%;
 }
 .projects-section1
 {
@@ -369,6 +441,122 @@ svg
     width: 316.7px;
     height: 400px;
 }
+
+/* coding component */
+.coding-cards-container
+{
+    margin:20px auto;
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.coding-card
+{
+    /* width: 200px;
+    height: 50px; */
+    border: 2px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.coding-card:hover
+{
+    background-color: #3c3c3c;
+    /* background-color: #dddddd; */
+}
+.coding-name:hover
+{
+    color:white;
+}
+.coding-name
+{
+    padding: 20px 50px;
+    text-align: center;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* connect me */
+.conn-me-cntr
+{
+    height: 100px;
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.soc-links
+{
+    display: flex;
+    gap: 50px;
+}
+.soc-links a img
+{
+    height: 40px;
+    width: 40px;
+}
+/* atricle component */
+.arti-cards-cntr
+{
+    margin:20px auto;
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.arti-card
+{
+    border: 2px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.arti-name-cntr
+{
+    padding: 20px 50px;
+    text-align: center;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+.pro-cards-cntr
+{
+    margin:20px auto;
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.pro-card
+{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
 /* media query for skills section */
 @media(min-width:970px)
 {
