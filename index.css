@@ -538,18 +538,24 @@ a
 }
 .arti-name-cntr
 {
-    padding: 20px 50px;
+    padding: 10px 0px;
     text-align: center;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Jura', sans-serif;
     font-style: normal;
     font-weight: bold;
-    color: #3c3c3c;
+    font-size: medium;
+    /* color: #3c3c3c; */
 }
 .arti-desc-cntr
 {
     text-align: justify;
     padding: 20px;
+}
+.arti-card:hover
+{
+    background-color: #3c3c3c;
+    color: white;
 }
 .arti-card a img
 {
