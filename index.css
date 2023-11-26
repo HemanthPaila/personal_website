@@ -339,6 +339,7 @@ svg
     font-style: normal;
     font-weight: 500;
     color: #3c3c3c;
+    padding: 10px;
 }
 .certi-img-cntr1
 {
@@ -552,11 +553,11 @@ a
     text-align: justify;
     padding: 20px;
 }
-.arti-card:hover
+/* .arti-card:hover
 {
     background-color: #3c3c3c;
     color: white;
-}
+} */
 .arti-card a img
 {
     height: 30px;
@@ -633,7 +634,87 @@ a
     font-size: small;
     font-weight: bold;
 }
+/* intern component */
+.intern-cards-cntr
+{
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    height: auto;
+    margin: 0px auto;
+    gap: 10px;
+    /* border: 2px solid #dddddd; */
+    /* background-color: #08737f; */
+    border-radius: 5px;
+}
+.intern-card
+{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #dddddd;
+    gap: 20px;
+    /* margin: 20px; */
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.intern-logo
+{
+    width: 30%;
+    /* width: 300px; */
+    height: 200px;
+    border-radius: 5px;
+    /* height: 100%; */
+    /* background-image: url(images/1651393838980_page-0001.jpg);
+    background-size: cover; */
+    /* margin: 10px; */
+}
+.intern-heading
+{
+    text-align: left;
+}
+.intern-main-desc
+{
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    line-height: 25px;
+    width: 70%;
+    height: auto;
+}
+.intern-logo img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.intern-btn
+{
+    width: 100px;
+    padding: 10px 10px;
+    background-color: rgb(114, 114, 255);
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(114, 114, 255);
+    font-weight: 700;
+}
+.intern-btn:hover
+{
+    background-color: white;
+    color: rgb(114, 114, 255);
+    border: 2px solid rgb(114, 114, 255);
+}
 
+.intern-heading
+{
+    font-size: large;
+    font-weight: 700;
+}
+
+li
+{
+    font-family: 'Jura', sans-serif;
+}
 
 
 
