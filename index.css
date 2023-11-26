@@ -500,7 +500,7 @@ a
 /* connect me */
 .conn-me-cntr
 {
-    height: 100px;
+    height: 50px;
     background-color: #dddddd;
     display: flex;
     align-items: center;
