@@ -123,11 +123,12 @@ h2
 h1
 {
     display: inline-block;
-    margin: 0 auto;
+    margin: 10px auto;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     color: #3c3c3c;
+    /* text-decoration: underline blue; */
     /* border-width: 0px 0px 5px 0px;
     border-style: solid;
     border-color: #362CC8; */
